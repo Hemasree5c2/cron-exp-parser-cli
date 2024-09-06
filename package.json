@@ -1,0 +1,23 @@
+{
+  "name": "cron-exp-parser-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/bin/index.js",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "jest"
+  },
+  "bin": {
+    "cron-exp-parser-cli": "/bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "table": "^6.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
